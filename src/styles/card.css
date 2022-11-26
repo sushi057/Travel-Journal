@@ -1,0 +1,51 @@
+.main-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 36px;
+  gap: 16px;
+}
+
+.main-location {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.landmark {
+  width: 16px;
+}
+
+.main-place {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-right: 8px;
+
+  color: #2b283a;
+}
+
+.main-top {
+  margin-bottom: 12px;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+.main-date {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.main-description {
+  max-width: 471px;
+}
+
+a {
+  color: #918e9b;
+}
