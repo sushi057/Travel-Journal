@@ -5,12 +5,16 @@ export default function Card(props) {
     <div className="main-card">
       <img src={props.item.imageUrl} alt="location" />
       <div className="main-details">
-        {/* <img src={} alt='landmark' /> */}
-        <p>{props.item.location}</p>
-        <a href={props.item.googleMapsUrl}>View on Google Maps</a>
-        <h2>{props.itetitle}</h2>
-        <p>{props.item.startDate}</p>
-        <p>{props.item.endDate}</p>
+        <p>
+          <img src="/images/landmark.png" alt="landmark" />
+          {props.item.location}{" "}
+          <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+        </p>
+
+        <h2>{props.item.title}</h2>
+        <p>
+          {props.item.startDate} - {props.item.endDate}
+        </p>
         <p>{props.item.description}</p>
       </div>
     </div>

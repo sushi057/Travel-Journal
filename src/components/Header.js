@@ -1,11 +1,10 @@
-// import worldwide from "./public/worldwide.png";
-
 export default function Header() {
   return (
-    <div>
-      Header
-      {/* <igm src={worldwide} alt="world" /> */}
-      <p>travel Journal</p>
+    <div className="header">
+      <p>
+        <img src="/images/worldwide.png" alt="world" />
+        my travel Journal
+      </p>
     </div>
   );
 }
